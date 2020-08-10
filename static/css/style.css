@@ -383,7 +383,7 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(../images/5.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -407,13 +407,14 @@ li > a:only-child:after {
 .bg1 {
     background-color: rgba(0, 0, 0, 0);
     margin-top: 0px;
-    background-image: url('../single-post-pic.jpg');"
+    background-image: url('../ny1.jpg');"
 }
 /*-- place holder --*/
 
 .banner-form ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #ccc;
+
 }
 
 .banner-form ::-moz-placeholder {
