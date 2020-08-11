@@ -409,6 +409,12 @@ li > a:only-child:after {
     margin-top: 0px;
     background-image: url('../ny1.jpg');"
 }
+
+.bg2 {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 0px;
+    background-image: url('../banner.jpg');"
+}
 /*-- place holder --*/
 
 .banner-form ::-webkit-input-placeholder {
