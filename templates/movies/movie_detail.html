@@ -80,7 +80,7 @@
                             {% endfor %}
 
                         </p>
-                        <p class="editContent" style="outline: none; cursor: inherit;">{{ movie.description }}</p>
+                        <p class="editContent" style="outline: none; cursor: inherit;">{{ movie.description|safe }}</p>
                     </div>
                     <hr>
                     <div class="row">
@@ -153,6 +153,7 @@
                         </div>
                     {% endfor %}
                 </div>
+    </div>
         <script>
             function addReview(name, id) {
                 document.getElementById("contactparent").value = id;
@@ -160,3 +161,4 @@
             }
         </script>
 {% endblock movie %}
+
